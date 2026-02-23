@@ -117,8 +117,7 @@ To see which languages are currently installed:
 
 ### Option A: Double-click launcher
 
-1. Edit `BatchOCR.ps1` and set your target folder and any options
-2. Double-click `RunBatchOCR.bat`
+1. Double-click `RunBatchOCR.bat`
 
 ### Option B: Run the Python script directly
 
