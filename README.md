@@ -1,5 +1,7 @@
 # Batch OCR Pipeline
 
+This was written to deploy OCR on PDFs a folder containing many files, some of which are PDFs that need OCR, some are PDFs that don't need OCR, and some are not PDFs. Install Python, Tesseract, Ghostscript, and ocrmypdf. Download the files. Doubleclick on RunBatchOCR. Point it at the folder you want processed. The originals are left in place but the file name is tagged with `__OCRPIPE_ORIG__`. The OCR'd files that get created are tagged `__OCRPIPE_OCR__`. This was created with AI. 
+
 A safe, parallel batch OCR pipeline for Windows that scans a folder tree for PDF files, detects which ones lack searchable text, and runs [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) on them. Originals are never overwritten — they are renamed with a `__OCRPIPE_ORIG__` tag only after a successful OCR output has been produced.
 
 ## Features
